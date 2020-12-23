@@ -1,0 +1,245 @@
+{
+    "pages": [
+        {
+            "type": "page",
+            "items": [
+                {
+                    "type": "text",
+                    "text": "Ditt bidrag teller",
+                    "identifier": "firstPageTitle",
+                    "size": 34,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "localImage",
+                    "named": "onboarding_virus_color"
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "text",
+                    "text": "Takk for at du lastet ned Smittestopp. Sammen kan vi knekke korona.",
+                    "identifier": "firstPageBoldText",
+                    "size": 16,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "text",
+                    "text": "Med din hjelp kan vi varsle personer utsatt for smitte, og ved hjelp av appen registrere bevegelsesmønster blant folk for å lage gode smitteverntiltak.",
+                    "identifier": "firstPageMattersText",
+                    "size": 16,
+                    "bold": false
+                }
+            ],
+            "buttonText": "NESTE",
+            "buttonAction": "next",
+            "buttonIdentifier": "firstPageNextButton"
+        },
+        {
+            "type": "page",
+            "items": [
+                {
+                    "type": "text",
+                    "text": "Om Smittestopp",
+                    "identifier": "aboutTitle",
+                    "size": 34,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "localImage",
+                    "named": "onboarding_track"
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "text",
+                    "text": "Du mottar en SMS hvis du har vært i nærheten av en annen bruker som senere tester positivt for koronaviruset.",
+                    "identifier": "aboutText",
+                    "size": 16,
+                    "bold": false
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "text",
+                    "text": "Jo flere vi er som bruker appen, jo raskere vil vi stoppe spredningen av koronaviruset.",
+                    "identifier": "aboutBoldText",
+                    "size": 16,
+                    "bold": true
+                }
+            ],
+            "buttonText": "NESTE",
+            "buttonAction": "next",
+            "buttonIdentifier": "aboutNextButton"
+        },
+        {
+            "type": "privacy",
+            "items": [
+                {
+                    "type": "text",
+                    "text": "Personvern",
+                    "identifier": "privacyTitle",
+                    "size": 34,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 34
+                },
+                {
+                    "type": "localImage",
+                    "named": "Privacy track"
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "text",
+                    "text": "FHI lagrer informasjon om ditt bevegelsesmønster for å varsle deg om smitte, og måle effekt av smitteverntiltakene i samfunnet.",
+                    "identifier": "privacyTextTop",
+                    "size": 16,
+                    "bold": false
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "localImage",
+                    "named": "Privacy advice"
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "text",
+                    "text": "FHI bruker ikke informasjonen til å sjekke om du eller andre overholder råd og pålegg fra myndighetene.",
+                    "identifier": "privacyTextMiddle",
+                    "size": 16,
+                    "bold": false
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "localImage",
+                    "named": "Privacy Trash"
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "text",
+                    "text": "All innsamlet personlig informasjon slettes automatisk etter 30 dager. Det er også mulig å slette egne opplysninger i appens innstillinger.",
+                    "identifier": "privacyTextBottom",
+                    "size": 16,
+                    "bold": false
+                }
+            ],
+            "buttonText": "LES PERSONVERNERLKÆRINGEN",
+            "buttonAction": "privacyPolicy",
+            "buttonIdentifier": "privacyButton"
+        },
+        {
+            "type": "ageVerification",
+            "items": [
+                {
+                    "type": "text",
+                    "text": "Fødselsdato",
+                    "identifier": "ageVerificationTitle",
+                    "size": 34,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "localImage",
+                    "named": "age_verification"
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "text",
+                    "text": "Du må være over 16 år for å bruke Smittestopp.\nVennligst oppgi fødselsdato.",
+                    "identifier": "ageVerificationDescription",
+                    "size": 16,
+                    "bold": false
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                }
+            ],
+            "buttonText": "NESTE",
+            "buttonAction": "next",
+            "buttonIdentifier": "ageVerificationNextButton"
+        },
+        {
+            "type": "permissions",
+            "items": [],
+            "buttonText": "NESTE",
+            "buttonAction": "next",
+            "buttonIdentifier": "permissionsNextButton"
+        },
+        {
+            "type": "register",
+            "items": [
+                {
+                    "type": "text",
+                    "text": "Motta meldinger",
+                    "identifier": "registerTitle",
+                    "size": 34,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "localImage",
+                    "named": "sms color"
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "text",
+                    "text": "Vi trenger ditt telefonnummer for å kontakte deg hvis du har vært i nærheten av noen som er smittet.",
+                    "identifier": "registerText",
+                    "size": 16,
+                    "bold": false
+                }
+            ],
+            "buttonText": "REGISTRER",
+            "buttonAction": "register",
+            "buttonIdentifier": "registerButton"
+        }
+    ]
+}

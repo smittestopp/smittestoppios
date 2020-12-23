@@ -1,0 +1,132 @@
+
+/* Class = "UILabel"; text = "Clear file"; ObjectID = "1Lv-7y-Xd4"; */
+"1Lv-7y-Xd4.text" = "Clear file";
+
+/* Class = "UILabel"; text = "42MB"; ObjectID = "4CD-KU-3Qe"; */
+"4CD-KU-3Qe.text" = "42MB";
+
+/* Class = "UILabel"; text = "Health monitoring is partially activated"; ObjectID = "4bf-TY-JB1"; */
+"4bf-TY-JB1.text" = "Health monitoring is partially activated";
+
+/* Class = "UILabel"; text = "Last successfull upload"; ObjectID = "65c-f4-dLx"; */
+"65c-f4-dLx.text" = "Last successfull upload";
+
+/* Class = "UITableViewSection"; headerTitle = "Last upload"; ObjectID = "Cru-Tq-VjQ"; */
+"Cru-Tq-VjQ.headerTitle" = "Last upload";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "DHd-at-Leh"; */
+"DHd-at-Leh.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "0.0.1"; ObjectID = "Dcn-jC-i0l"; */
+"Dcn-jC-i0l.text" = "0.0.1";
+
+/* Class = "UILabel"; text = "Write app log output to file"; ObjectID = "Fgi-6Z-3ak"; */
+"Fgi-6Z-3ak.text" = "Write app log output to file";
+
+/* Class = "UILabel"; text = "Last upload attempt"; ObjectID = "GEQ-eZ-KXh"; */
+"GEQ-eZ-KXh.text" = "Last upload attempt";
+
+/* Class = "UIButton"; normalTitle = "Verifisere med SMS"; ObjectID = "KNX-F2-rcA"; */
+"KNX-F2-rcA.normalTitle" = "Verifisere med SMS";
+
+/* Class = "UITextField"; placeholder = "12345"; ObjectID = "MHZ-U6-UFC"; */
+"MHZ-U6-UFC.placeholder" = "12345";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Md4-Y7-Jw8"; */
+"Md4-Y7-Jw8.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Mpj-6A-zn3"; */
+"Mpj-6A-zn3.text" = "Subtitle";
+
+/* Class = "UITextField"; placeholder = "+47 1234 5678"; ObjectID = "MvH-lh-fdz"; */
+"MvH-lh-fdz.placeholder" = "+47 1234 5678";
+
+/* Class = "UILabel"; text = "Number of pending Bluetooth events"; ObjectID = "Mxc-4X-9DA"; */
+"Mxc-4X-9DA.text" = "Number of pending Bluetooth events";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Phr-Yx-cDF"; */
+"Phr-Yx-cDF.text" = "Subtitle";
+
+/* Class = "UITableViewSection"; headerTitle = "Upload statistics"; ObjectID = "RhM-yU-8hX"; */
+"RhM-yU-8hX.headerTitle" = "Upload statistics";
+
+/* Class = "UILabel"; text = "Filename"; ObjectID = "TGW-s6-Exi"; */
+"TGW-s6-Exi.text" = "Filename";
+
+/* Class = "UILabel"; text = "App logs settings"; ObjectID = "UnK-e5-uKw"; */
+"UnK-e5-uKw.text" = "App logs settings";
+
+/* Class = "UITableViewSection"; headerTitle = "App Version"; ObjectID = "X9P-m5-PRE"; */
+"X9P-m5-PRE.headerTitle" = "App Version";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "XVy-Ep-Aqi"; */
+"XVy-Ep-Aqi.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Telefonnummer"; ObjectID = "ZFu-nR-3Ei"; */
+"ZFu-nR-3Ei.text" = "Telefonnummer";
+
+/* Class = "UITableViewSection"; headerTitle = "GPS log settings"; ObjectID = "bRt-ce-Bfv"; */
+"bRt-ce-Bfv.headerTitle" = "GPS log settings";
+
+/* Class = "UILabel"; text = "Clear files"; ObjectID = "cB0-UW-1tS"; */
+"cB0-UW-1tS.text" = "Clear files";
+
+/* Class = "UILabel"; text = "You will be informed if we find out you have been in contact with Infected people"; ObjectID = "dqS-Bk-wSv"; */
+"dqS-Bk-wSv.text" = "You will be informed if we find out you have been in contact with Infected people";
+
+/* Class = "UITableViewSection"; headerTitle = "App log settings"; ObjectID = "eHG-H0-Hnj"; */
+"eHG-H0-Hnj.headerTitle" = "App log settings";
+
+/* Class = "UILabel"; text = "Upload now"; ObjectID = "gBR-1T-mZt"; */
+"gBR-1T-mZt.text" = "Upload now";
+
+/* Class = "UILabel"; text = "SMS kode"; ObjectID = "hIm-eu-lSo"; */
+"hIm-eu-lSo.text" = "SMS kode";
+
+/* Class = "UILabel"; text = "Terms And Conditions"; ObjectID = "i0i-Rw-LzL"; */
+"i0i-Rw-LzL.text" = "Terms And Conditions";
+
+/* Class = "UILabel"; text = "View logs"; ObjectID = "i3X-ZA-78X"; */
+"i3X-ZA-78X.text" = "View logs";
+
+/* Class = "UILabel"; text = "Bluetooth is not in use The app have limited capability\nGo in Settings to change the permissions"; ObjectID = "ixo-p4-Oxc"; */
+"ixo-p4-Oxc.text" = "Bluetooth is not in use The app have limited capability\nGo in Settings to change the permissions";
+
+/* Class = "UILabel"; text = "Mar 23 19:42:64"; ObjectID = "jnE-ge-1JX"; */
+"jnE-ge-1JX.text" = "Mar 23 19:42:64";
+
+/* Class = "UILabel"; text = "Unregister"; ObjectID = "k8j-6o-SFx"; */
+"k8j-6o-SFx.text" = "Unregister";
+
+/* Class = "UIButton"; normalTitle = "Jeg aksepterer"; ObjectID = "lBJ-Jc-9Xt"; */
+"lBJ-Jc-9Xt.normalTitle" = "Jeg aksepterer";
+
+/* Class = "UITableViewSection"; headerTitle = "Device Identifier"; ObjectID = "lPh-Lx-nZO"; */
+"lPh-Lx-nZO.headerTitle" = "Device Identifier";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "mEy-mL-IYI"; */
+"mEy-mL-IYI.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Write GPS data to files"; ObjectID = "mOS-hs-BHg"; */
+"mOS-hs-BHg.text" = "Write GPS data to files";
+
+/* Class = "UILabel"; text = "Upload started"; ObjectID = "q8N-vm-nXU"; */
+"q8N-vm-nXU.text" = "Upload started";
+
+/* Class = "UILabel"; text = "Monitoring"; ObjectID = "slE-zt-bmN"; */
+"slE-zt-bmN.text" = "Oppfølging";
+
+/* Class = "UITableViewSection"; headerTitle = "Settings"; ObjectID = "udR-Uq-pYr"; */
+"udR-Uq-pYr.headerTitle" = "Settings";
+
+/* Class = "UILabel"; text = "Number of pending GPS events"; ObjectID = "usf-Ca-RUy"; */
+"usf-Ca-RUy.text" = "Number of pending GPS events";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "vDL-b2-zih"; */
+"vDL-b2-zih.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Database size"; ObjectID = "xrq-Za-VvU"; */
+"xrq-Za-VvU.text" = "Database size";
+
+/* Class = "UIView"; accessibilityLabel = "Login"; ObjectID = "zeq-3l-b34"; */
+"zeq-3l-b34.accessibilityLabel" = "Login";

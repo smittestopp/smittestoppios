@@ -1,0 +1,14 @@
+/* Privacy - Bluetooth Always Usage Description */
+"NSBluetoothAlwaysUsageDescription" = "Appen trenger Bluetooth for å få data fra nærkontakt med andre telefoner.";
+
+/* Privacy - Bluetooth Peripheral Usage Description */
+"NSBluetoothPeripheralUsageDescription" = "Appen trenger Bluetooth for å få data fra nærkontakt med andre telefoner";
+
+/* Privacy - Location Always and When In Use Usage Description */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Appen trenger din posisjon for å spore nærkontakt med andre personer.";
+
+/* Privacy - Location Always Usage Description */
+"NSLocationAlwaysUsageDescription" = "Appen trenger din posisjon for å spore nærkontakt med andre personer.";
+
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "Appen trenger din posisjon for å spore nærkontakt med andre personer.";

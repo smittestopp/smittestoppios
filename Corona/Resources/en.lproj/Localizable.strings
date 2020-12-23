@@ -1,0 +1,144 @@
+// MARK: Onboarding
+
+"Onboarding.TokenExpired.Title" = "Could not verify phone number";
+"Onboarding.TokenExpired.Description" = "The phone number could not be verified. Please go through the phone number registration again.";
+
+"Onboarding.AgeVerification.Error.Title" = "An error has occurred.";
+"Onboarding.AgeVerification.Error.InvalidAge" = "You need to be at least 16 years of age to use Smittestopp.";
+
+"Onboarding.Permissions.Title" = "Permissions";
+"Onboarding.Permissions.Description" = "Help us stop the spread of coronavirus by giving us permission to use the following:";
+"Onboarding.Permissions.Location.Title" = "Location services";
+"Onboarding.Permissions.Location.Description" = "See the location of your device. Set Location Services to “Always”.";
+"Onboarding.Permissions.Bluetooth.Title" = "Bluetooth";
+"Onboarding.Permissions.Bluetooth.Description" = "See the location of your device in relation to other devices.";
+"Onboarding.Permissions.Notifications.Title" = "Notifications";
+"Onboarding.Permissions.Notifications.Description" = "Smittestopp will notify you when it is connected and working.";
+
+"Onboarding.Permissions.AllowButton.Title" = "Allow";
+"Onboarding.Permissions.AllowButton.LocationAccessibilityLabel" = "Allow location services";
+"Onboarding.Permissions.AllowButton.BluetoothAccessibilityLabel" = "Allow bluetooth";
+"Onboarding.Permissions.AllowButton.NotificationsAccessibilityLabel" = "Allow notifications";
+
+"Onboarding.Permissions.AlreadyAllowedButton.Title" = "Allowed";
+"Onboarding.Permissions.AlreadyAllowedButton.LocationAccessibilityLabel" = "Already allowed location";
+"Onboarding.Permissions.AlreadyAllowedButton.BluetoothAccessibilityLabel" = "Already allowed bluetooth";
+"Onboarding.Permissions.AlreadyAllowedButton.NotificationsAccessibilityLabel" = "Already allowed notifications";
+
+"Onboarding.Permissions.NotEnoughPermissions.Title" = "Oops";
+"Onboarding.Permissions.NotEnoughPermissions.Location" = "The app requires location to warn you if you've been near someone who has been infected. Please go to Settings and turn on the Location permission.";
+"Onboarding.Permissions.NotEnoughPermissions.Bluetooth" = "The app requires Bluetooth to warn you if you've been near someone who has been infected. Please go to Settings and turn on the Bluetooth permission.";
+"Onboarding.Permissions.NotEnoughPermissions.Notifications" = "The app can send you notifications about connectivity and accessibility. Please go to Settings and turn on the Notification permission.";
+"Onboarding.Permissions.NotEnoughPermissions.GoToSettingsButton.Title" = "Go to Settings";
+
+// MARK: Monitoring
+
+"Monitoring.Title" = "App status";
+
+"Monitoring.ThankYou.Title" = "Thank you for helping";
+"Monitoring.ThankYou.Description" = "You will be contacted if you have been in contact with, or close to, someone who has been confirmed as being infected with coronavirus (if the infected person has also downloaded the Smittestopp app)";
+
+"Monitoring.Header.FullyActivated" = "Fully enabled";
+"Monitoring.Header.PartiallyActivated" = "Partly enabled";
+"Monitoring.Header.NotWorking" = "Deactivated";
+"Monitoring.Header.Deactivated" = "Disabled";
+
+"Monitoring.Instructions.Bluetooth.Off.Global" = "<b>Thank you for helping. If you enable Bluetooth, you can help out even more.</b><br/><br/>Please go to Settings on your iPhone:";
+"Monitoring.Instructions.Bluetooth.Off.Local" = "<b>Smittestopp does not have access to Bluetooth</b><br/><br/>Press the “Open Settings” button and grant Smittestopp access:";
+"Monitoring.Instructions.GPS.Off.Global" = "<b>Thank you for helping. If you enable Location services, you can help out even more.</b><br/><br/>Please go to Settings on your iPhone:";
+"Monitoring.Instructions.GPS.Off.Local" = "<b>Smittestopp does not have access to Location Services</b><br/>Press the “Open Settings” button and grant Smittestopp access:";
+
+"Monitoring.Instructions.BluetoothAndGPS.Off.Global.PartOne" = "<b>Bluetooth and Location Services are not in use</b><br/><br/>Please go to Settings and Privacy on your iPhone:";
+"Monitoring.Instructions.BluetoothAndGPS.Off.Global.PartTwo" = "For Bluetooth:";
+"Monitoring.Instructions.BluetoothAndGPS.Off.Local.PartOne" = "<b>Smittestopp does not have access to Location Services or Bluetooth</b><br/><br/>Press the “Open Settings” button and grant Smittestopp access:";
+"Monitoring.Instructions.BluetoothAndGPS.Off.Local.PartTwo" = "";
+
+"Monitoring.Instructions.Location" = "Location Services";
+"Monitoring.Instructions.Always.On" = "Set to “always”";
+"Monitoring.Instructions.Turn.On" = "Turn “On”";
+"Monitoring.Instructions.Privacy" = "Privacy";
+"Monitoring.Instructions.Settings" = "Settings";
+"Monitoring.Instructions.Bluetooth" = "Bluetooth";
+"Monitoring.Instructions.OpenSettings.Button.Title" = "OPEN SETTINGS";
+
+"Monitoring.RestartMonitoring.Description" = "When Smittestopp is disabled, the app cannot be used to track corona infection. We need your help!";
+"Monitoring.RestartMonitoring.Button.Title" = "RESTART MONITORING";
+
+"Monitoring.ShareApp.Button.Title" = "SHARE THE APP";
+"Monitoring.ShareApp.Button.Description" = "If you want to contribute more, share Smittestopp with others:";
+
+"Monitoring.AgeVerification.Button.Title" = "REGISTER AGE";
+"Monitoring.AgeVerification.Button.Description" = "Your age is not verified. To continue using Smittestopp you have to verify that you are at least 16 years old.";
+
+// MARK: Info
+
+"Info.Title" = "Information about coronavirus and digital tools";
+
+"Info.Link.Information" = "Stay up to date with facts and advice about coronavirus";
+"Info.Link.Smittestopp" = "Read more about the Smittestopp app";
+"Info.Text.DigitalTools" = "Digital tools:";
+"Info.Link.StoredData" = "See what data Smittestopp has stored about you";
+"Info.Link.SelfReport" = "Self-reporting of symptoms";
+
+// MARK: Settings
+
+"Settings.Title" = "Settings";
+"Settings.AppVersion" = "App version";
+
+"Settings.User.Title" = "My phone";
+"Settings.User.LogoutButton.Title" = "LOG OUT";
+"Settings.User.Logout.Title" = "Log out";
+"Settings.User.Logout.Message" = "Are you sure you want to log out?";
+
+"Settings.Authorizations.Title" = "Services";
+"Settings.Authorization.Monitoring.OnTitle" = "App enabled";
+"Settings.Authorization.Monitoring.OffTitle" = "App disabled";
+"Settings.Authorization.Monitoring.OnAccessibilityLabel" = "Monitoring is enabled";
+"Settings.Authorization.Monitoring.OffAccessibilityLabel" = "Monitoring is disabled";
+
+"Settings.Support.Title" = "Customer support";
+
+"Settings.Notifications.Title" = "SMS notification";
+"Settings.Notifications.Button.Title" = "SHOW VALIDATION CODE";
+
+"Settings.DeleteAllMyDataButton.Title" = "ERASE ALL MY DATA";
+"Settings.DeleteAllMyDataError" = "An error occurred. Please try again later or contact customer support if the issue persists.";
+"Settings.DeleteAllMyDataConfirmation.Title" = "Are you sure?";
+"Settings.DeleteAllMyDataConfirmation.Message" = "If we erase all your data, we will not be able to know if you have been in contact with anyone who is infected with coronavirus or be able to notify you about this. This will increase the number of unrecorded cases in the national data and make it difficult to stop the spread of coronavirus.";
+
+// MARK: Privacy policy
+
+"PrivacyPolicy.Title" = "Privacy Policy";
+"PrivacyPolicy.DeclineButton.Title" = "Decline";
+"PrivacyPolicy.AcceptButton.Title" = "Accept";
+
+"PrivacyPolicy.DeclineConfirmation.Title" = "Are you sure?";
+"PrivacyPolicy.DeclineConfirmation.Description" = "If you do not accept the privacy policy, the app will not be able to collect any data and will not work.";
+"PrivacyPolicy.DeclineConfirmation.DeclineButton.Title" = "Yes, decline";
+"PrivacyPolicy.DeclineConfirmation.AcceptButton.Title" = "Accept";
+
+// MARK: Miscellaneous
+
+"AgeVerification.Confirmed.Title" = "Thank you!";
+"AgeVerification.Confirmed.Message" = "You are registered with the following date of birth: ";
+"AgeVerification.Explanation.Description" = "Why do you need to register your date of birth?";
+"AgeVerification.Explanation.Title" = "Why do you need to register your date of birth?";
+"AgeVerification.Explanation.Message" = "If you are under the age of 16, we are not allowed to let you use this app. You must register your date of birth so that we can be sure that you are old enough to use it.";
+
+"Tab.Monitoring" = "App status";
+"Tab.Info" = "Info";
+"Tab.Settings" = "Settings";
+
+"Notification.BluetoothOff" = "Bluetooth is off. Turn on Bluetooth to continue helping track COVID-19 infections.";
+"Notification.NewVersionAvailable" = "A new version of Smittestopp is available.";
+"Notification.DataDeleted" = "Your data was deleted. Tap to register again.";
+
+"Loading.Title" = "Loading…";
+"Error.Title" = "Error";
+"Error.Description" = "Please try again.";
+
+"ConfirmButton.Title" = "Confirm";
+"CancelButton.Title" = "Cancel";
+"DeleteButton.Title" = "Erase";
+"OKButton.Title" = "OK";
+"CloseButton.Title" = "Close";

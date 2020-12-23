@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APP_CONFIGURATION_TARGET</key>
+	<string>$(APP_CONFIGURATION_TARGET)</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>no.fhi.smittestopp.heartbeat</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(APP_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>msalf427f831-60ae-4ea3-9de6-11977b46cf01</string>
+				<string>msal1f9d4f3a-4c47-41ff-a0cf-156b6c5b55be</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>43</string>
+	<key>GIT_COMMIT</key>
+	<string>1.1.1-96-g928b795</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Bluetooth brukes for...2</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Bluetooth brukes for...</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Appen trenger lokalisjonsdata for innsamling.3</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Appen trenger lokalisjonsdata for innsamling.1</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Appen trenger lokalisjonsdata for innsamling.2</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>HVD Fonts - BrandonText-Black.otf</string>
+		<string>HVD Fonts - BrandonText-BlackItalic.otf</string>
+		<string>HVD Fonts - BrandonText-Bold.otf</string>
+		<string>HVD Fonts - BrandonText-BoldItalic.otf</string>
+		<string>HVD Fonts - BrandonText-Light.otf</string>
+		<string>HVD Fonts - BrandonText-LightItalic.otf</string>
+		<string>HVD Fonts - BrandonText-Medium.otf</string>
+		<string>HVD Fonts - BrandonText-MediumItalic.otf</string>
+		<string>HVD Fonts - BrandonText-Regular.otf</string>
+		<string>HVD Fonts - BrandonText-RegularItalic.otf</string>
+		<string>HVD Fonts - BrandonText-Thin.otf</string>
+		<string>HVD Fonts - BrandonText-ThinItalic.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>

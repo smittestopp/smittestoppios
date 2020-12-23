@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "F35ABD41-7728-4427-A40B-87AE8701A879",
+      "name" : "Norwegian",
+      "options" : {
+        "language" : "nb"
+      }
+    },
+    {
+      "id" : "8C4691B2-960D-476B-802C-6B9E90127DCE",
+      "name" : "English",
+      "options" : {
+        "language" : "en"
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Corona.xcodeproj",
+        "identifier" : "920E0A802458252B000BCC17",
+        "name" : "CoronaSnapshotTests"
+      }
+    }
+  ],
+  "version" : 1
+}

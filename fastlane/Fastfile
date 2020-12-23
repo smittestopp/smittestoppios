@@ -1,0 +1,64 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+desc "Run all tests"
+lane :testall do
+    test_unit
+    test_snapshots
+end
+
+desc "Run unit tests"
+lane :test_unit do
+    run_tests(testplan: "Main", output_files: "main.html")
+end
+
+desc "Run snapshots tests"
+lane :test_snapshots do
+    run_tests(testplan: "Snapshots", output_files: "snapshots.html")
+end
+
+desc "Build and upload to testflight"
+lane :dev_build do
+
+  git_changelog = changelog_from_git_commits(merge_commit_filtering: "only_include_merges")
+  changelog = read_changelog
+  changelog += "\n\n"
+  changelog += "Merged pull requests since last release:\n\n"
+
+  git_changelog.each_line do |line|
+    changelog += line if line.include? "pull request"
+  end
+
+  puts "***** Changelog should be: ****** \n\n"
+  puts changelog
+
+  increment_build_number(xcodeproj: "./Corona.xcodeproj")
+
+  commit_version_bump(message: "Version Bump [ci skip]", xcodeproj: "./Corona.xcodeproj", ignore: /vendor|bundle/)
+  push_to_git_remote(
+    remote: "origin",
+    remote_branch: "develop",
+    tags: false
+  )
+
+  build_app(scheme: "Corona Release (dev)", include_bitcode: true)
+
+  upload_to_testflight(
+    username: ENV["FASTLANE_USERNAME"],
+    apple_id: "1511904465",
+    skip_waiting_for_build_processing: true,
+    skip_submission: true
+  )
+end

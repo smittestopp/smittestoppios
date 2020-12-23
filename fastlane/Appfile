@@ -1,0 +1,10 @@
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
+
+app_identifier("no.fhi.smittestopp") # The bundle identifier of your app
+apple_id(ENV["USERNAME"])
+team_id("YRD4UB2L54") 
+
+for_lane :dev_build do
+  app_identifier 'no.fhi.smittestoppdev'
+end

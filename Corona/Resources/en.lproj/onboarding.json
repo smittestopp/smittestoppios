@@ -1,0 +1,245 @@
+{
+    "pages": [
+        {
+            "type": "page",
+            "items": [
+                {
+                    "type": "text",
+                    "text": "Your contribution counts",
+                    "identifier": "firstPageTitle",
+                    "size": 34,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "localImage",
+                    "named": "onboarding_virus_color"
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "text",
+                    "text": "Thank you for downloading the Smittestopp contact tracing app.",
+                    "identifier": "firstPageBoldText",
+                    "size": 16,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "text",
+                    "text": "With your help, we can alert people who have been exposed to infection, and we can use the app to record movement patterns amongst people to help us establish appropriate infection control measures.",
+                    "identifier": "firstPageText",
+                    "size": 16,
+                    "bold": false
+                }
+            ],
+            "buttonText": "NEXT",
+            "buttonAction": "next",
+            "buttonIdentifier": "firstPageNextButton"
+        },
+        {
+            "type": "page",
+            "items": [
+                {
+                    "type": "text",
+                    "text": "About the Smittestopp contact tracing app",
+                    "identifier": "aboutTitle",
+                    "size": 34,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "localImage",
+                    "named": "onboarding_track"
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "text",
+                    "text": "You will receive a text message if you have been near another user who later tests positive for coronavirus.",
+                    "identifier": "aboutText",
+                    "size": 16,
+                    "bold": false
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "text",
+                    "text": "The more people who use the app, the sooner we will be able to stop the spread of coronavirus.",
+                    "identifier": "aboutBoldText",
+                    "size": 16,
+                    "bold": true
+                }
+            ],
+            "buttonText": "NEXT",
+            "buttonAction": "next",
+            "buttonIdentifier": "aboutNextButton"
+        },
+        {
+            "type": "privacy",
+            "items": [
+                {
+                    "type": "text",
+                    "text": "Privacy",
+                    "identifier": "privacyTitle",
+                    "size": 34,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 34
+                },
+                {
+                    "type": "localImage",
+                    "named": "Privacy track"
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "text",
+                    "text": "The Norwegian Institute of Public Health (FHI) stores data about your movement patterns to alert you of possible infection, and to measure the effectiveness of infection control measures amongst the population.",
+                    "identifier": "privacyTextTop",
+                    "size": 16,
+                    "bold": false
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "localImage",
+                    "named": "Privacy advice"
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "text",
+                    "text": "FHI does not use this information to check whether you or anyone else is complying with government recommendations and instructions.",
+                    "identifier": "privacyTextMiddle",
+                    "size": 16,
+                    "bold": false
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "localImage",
+                    "named": "Privacy Trash"
+                },
+                {
+                    "type": "spacer",
+                    "size": 10
+                },
+                {
+                    "type": "text",
+                    "text": "All personal data that is collected is automatically erased after 30 days. You can also erase your own data via the app's settings.",
+                    "identifier": "privacyTextBottom",
+                    "size": 16,
+                    "bold": false
+                }
+            ],
+            "buttonText": "READ THE PRIVACY POLICY",
+            "buttonAction": "privacyPolicy",
+            "buttonIdentifier": "privacyButton"
+        },
+        {
+            "type": "ageVerification",
+            "items": [
+                {
+                    "type": "text",
+                    "text": "Date of birth",
+                    "identifier": "ageVerificationTitle",
+                    "size": 34,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "localImage",
+                    "named": "age_verification"
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "text",
+                    "text": "You must be over 16 to use the Smittestopp app.\nPlease state your date of birth.",
+                    "identifier": "ageVerificationDescription",
+                    "size": 16,
+                    "bold": false
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                }
+            ],
+            "buttonText": "NEXT",
+            "buttonAction": "next",
+            "buttonIdentifier": "ageVerificationNextButton"
+        },
+        {
+            "type": "permissions",
+            "items": [],
+            "buttonText": "NEXT",
+            "buttonAction": "next",
+            "buttonIdentifier": "permissionsNextButton"
+        },
+        {
+            "type": "register",
+            "items": [
+                {
+                    "type": "text",
+                    "text": "Receive messages",
+                    "identifier": "registerTitle",
+                    "size": 34,
+                    "bold": true
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "localImage",
+                    "named": "sms color"
+                },
+                {
+                    "type": "spacer",
+                    "size": 20
+                },
+                {
+                    "type": "text",
+                    "text": "We need your phone number so that we can contact you if you have been close to someone who is infected.",
+                    "identifier": "registerText",
+                    "size": 16,
+                    "bold": false
+                }
+            ],
+            "buttonText": "SIGN UP",
+            "buttonAction": "register",
+            "buttonIdentifier": "registerButton"
+        }
+    ]
+}

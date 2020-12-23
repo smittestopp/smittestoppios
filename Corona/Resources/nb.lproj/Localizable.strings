@@ -1,0 +1,145 @@
+// MARK: Onboarding
+
+"Onboarding.TokenExpired.Title" = "Klarte ikke verifisere telefonnummer";
+"Onboarding.TokenExpired.Description" = "Det skjedde en feil under registreringen av telefonnummeret. Vennligst gå igjennom registreringen igjen.";
+
+"Onboarding.AgeVerification.Error.Title" = "En feil har oppstått.";
+"Onboarding.AgeVerification.Error.InvalidAge" = "Du må være over 16 år for å bruke denne appen.";
+
+"Onboarding.Permissions.Title" = "Tillatelser";
+"Onboarding.Permissions.Description" = "Hjelp oss å stoppe smitten av koronaviruset ved å gi oss tillatelse til å bruke følgende:";
+"Onboarding.Permissions.Location.Title" = "Stedstjenester";
+"Onboarding.Permissions.Location.Description" = "Se posisjonen til enheten din.\nSett stedstjenester til “alltid”.";
+"Onboarding.Permissions.Bluetooth.Title" = "Bluetooth";
+"Onboarding.Permissions.Bluetooth.Description" = "Se posisjonen til enheten din i relasjon til andre enheter.";
+"Onboarding.Permissions.Notifications.Title" = "Varslinger";
+"Onboarding.Permissions.Notifications.Description" = "Smittestopp varsler om den er tilkoblet og gjør jobben sin.";
+
+"Onboarding.Permissions.AllowButton.Title" = "Tillat";
+"Onboarding.Permissions.AllowButton.LocationAccessibilityLabel" = "Tillat stedstjenester";
+"Onboarding.Permissions.AllowButton.BluetoothAccessibilityLabel" = "Tillat Bluetooth";
+"Onboarding.Permissions.AllowButton.NotificationsAccessibilityLabel" = "Tillat varslinger";
+
+"Onboarding.Permissions.AlreadyAllowedButton.Title" = "Tillatt";
+"Onboarding.Permissions.AlreadyAllowedButton.LocationAccessibilityLabel" = "Stedstjenester er tillatt";
+"Onboarding.Permissions.AlreadyAllowedButton.BluetoothAccessibilityLabel" = "Bluetooth er tillatt";
+"Onboarding.Permissions.AlreadyAllowedButton.NotificationsAccessibilityLabel" = "Varslinger er tillatt";
+
+"Onboarding.Permissions.NotEnoughPermissions.Title" = "Oops";
+"Onboarding.Permissions.NotEnoughPermissions.Location" = "Appen trenger din posisjon for varsle deg dersom du har vært i nærkontant med noen som har blitt smittet. Vennligst gå til innstillinger og tillat stedstjenester.";
+"Onboarding.Permissions.NotEnoughPermissions.Bluetooth" = "Appen trenger Bluetooth for å varsle deg dersom du har vært i nærkontakt med noen som har blitt smittet. Vennligst gå til innstillinger og aktiver Bluetooth.";
+"Onboarding.Permissions.NotEnoughPermissions.Notifications" = "Appen kan sende deg varslinger om tilkobling og tilgjengelighet. Vennligst gå til innstillinger og tillat varsler.";
+"Onboarding.Permissions.NotEnoughPermissions.GoToSettingsButton.Title" = "Til innstillinger";
+
+// MARK: Monitoring
+
+"Monitoring.Title" = "Appstatus";
+
+"Monitoring.ThankYou.Title" = "Takk for at du hjelper til!";
+"Monitoring.ThankYou.Description" = "Du blir kontaktet hvis du har vært i kontakt med, eller i nærheten av, noen som blir bekreftet smittet av koronaviruset.\n(hvis den smittede også har lastet ned Smittestopp)";
+
+"Monitoring.Header.FullyActivated" = "Fullt aktivert";
+"Monitoring.Header.PartiallyActivated" = "Delvis aktivert";
+"Monitoring.Header.NotWorking" = "Ikke aktivert";
+"Monitoring.Header.Deactivated" = "Appen er deaktivert";
+
+"Monitoring.Instructions.Bluetooth.Off.Global" = "<b>Takk for at du hjelper til, aktiverer du Bluetooth kan du hjelpe enda mer</b><br/><br/>Vennligst gå til innstillinger på din iPhone:";
+"Monitoring.Instructions.Bluetooth.Off.Local" = "<b>Appen har ikke tilgang til Bluetooth</b><br/><br/>Trykk på “åpne innstillinger” knapp og vennligst gi tilgang:";
+"Monitoring.Instructions.GPS.Off.Global" = "<b>Takk for at du hjelper til, aktiverer du Stedstjenester kan du hjelpe enda mer</b><br/><br/>Vennligst gå til innstillinger på din iPhone:";
+"Monitoring.Instructions.GPS.Off.Local" = "<b>Appen har ikke tilgang til Stedstjenester</b><br/>Trykk på “åpne innstillinger” knapp og vennligst gi tilgang:";
+
+"Monitoring.Instructions.BluetoothAndGPS.Off.Global.PartOne" = "<b>Bluetooth og Stedstjenester er ikke i bruk.</b><br/><br/>Vennligst gå til Innstillinger og Stedstjenester på din iPhone:";
+"Monitoring.Instructions.BluetoothAndGPS.Off.Global.PartTwo" = "For Bluetooth:";
+"Monitoring.Instructions.BluetoothAndGPS.Off.Local.PartOne" = "<b>Appen har ikke tilgang til Stedstjenester og Bluetooth</b><br/><br/>Trykk på “åpne innstillinger” knapp og vennligst gi tilgang:";
+"Monitoring.Instructions.BluetoothAndGPS.Off.Local.PartTwo" = "";
+
+"Monitoring.Instructions.Location" = "Stedstjenester";
+"Monitoring.Instructions.Always.On" = "Sett til “alltid”";
+"Monitoring.Instructions.Turn.On" = "Skru “På”";
+"Monitoring.Instructions.Privacy" = "Personvern";
+"Monitoring.Instructions.Settings" = "Instillinger";
+"Monitoring.Instructions.Bluetooth" = "Bluetooth";
+"Monitoring.Instructions.OpenSettings.Button.Title" = "ÅPNE INNSTILLINGER";
+
+"Monitoring.RestartMonitoring.Description" = "Når Smittestopp ikke er aktivert, kan appen ikke brukes til å spore koronasmitte. Vi trenger din hjelp!";
+"Monitoring.RestartMonitoring.Button.Title" = "AKTIVER APP";
+
+"Monitoring.ShareApp.Button.Title" = "DEL APPEN";
+"Monitoring.ShareApp.Button.Description" = "Vil du bidra mer, del Smittestopp videre:";
+
+"Monitoring.AgeVerification.Button.Title" = "REGISTRER ALDER";
+"Monitoring.AgeVerification.Button.Description" = "Din fødselsdato er ikke bekreftet. For å fortsette og bruke Smittestopp må du bekrefte at du er minst 16 år.";
+
+// MARK: Info
+
+"Info.Title" = "Informasjon om koronavirus og digitale verktøy";
+
+"Info.Link.Information" = "Hold deg oppdatert om fakta og råd om koronaviruset";
+"Info.Link.Smittestopp" = "Les mer om Smittestopp";
+"Info.Text.DigitalTools" = "Digitale verktøy:";
+"Info.Link.StoredData" = "Se hvilke opplysninger Smittestopp har lagret om deg";
+"Info.Link.SelfReport" = "Selvrapportering av symptomer";
+
+// MARK: Settings
+
+"Settings.Title" = "Innstillinger";
+"Settings.AppVersion" = "App versjon";
+
+"Settings.User.Title" = "Min telefon";
+"Settings.User.LogoutButton.Title" = "LOGG UT";
+"Settings.User.Logout.Title" = "Logg ut";
+"Settings.User.Logout.Message" = "Er du sikker på at du vil logge ut?";
+
+"Settings.Authorizations.Title" = "Tjenester";
+"Settings.Authorization.Monitoring.OnTitle" = "App aktivert";
+"Settings.Authorization.Monitoring.OffTitle" = "App deaktivert";
+"Settings.Authorization.Monitoring.OnAccessibilityLabel" = "App er aktivert";
+"Settings.Authorization.Monitoring.OffAccessibilityLabel" = "App er deaktivert";
+
+"Settings.Support.Title" = "Kundestøtte";
+
+"Settings.Notifications.Title" = "SMS-varsel";
+"Settings.Notifications.Button.Title" = "VIS VALIDERINGSKODE";
+
+"Settings.DeleteAllMyDataButton.Title" = "SLETT ALLE MINE DATA";
+"Settings.DeleteAllMyDataError" = "En feil oppstod. Vennligst prøv igjen.";
+"Settings.DeleteAllMyDataConfirmation.Title" = "Er du sikker?";
+"Settings.DeleteAllMyDataConfirmation.Message" = "Hvis vi sletter all dataen din, vil vi ikke kunne vite om du har vært i kontakt med en som er smittet av Koronaviruset, og heller ikke ha mulighet til å varsle deg om dette. Dette vil bidra til mørketall i oversikten og gjøre det vanskelig å hindre spredning.";
+
+// MARK: Privacy policy
+
+"PrivacyPolicy.Title" = "Personvernerklæring";
+"PrivacyPolicy.DeclineButton.Title" = "Avslå";
+"PrivacyPolicy.AcceptButton.Title" = "Aksepterer";
+
+"PrivacyPolicy.DeclineConfirmation.Title" = "Er du sikker?";
+"PrivacyPolicy.DeclineConfirmation.Description" = "Hvis du ikke aksepterer personvernerklæringen vil ikke appen fungere.";
+"PrivacyPolicy.DeclineConfirmation.DeclineButton.Title" = "Ja, avslå";
+"PrivacyPolicy.DeclineConfirmation.AcceptButton.Title" = "Tillat";
+
+// MARK: Miscellaneous
+
+"AgeVerification.Confirmed.Title" = "Takk!";
+"AgeVerification.Confirmed.Message" = "Du er registrert med følgende fødselsdato: ";
+"AgeVerification.Explanation.Description" = "Hvorfor må du registrere fødselsdato?";
+"AgeVerification.Explanation.Title" = "Hvorfor må du registrere fødselsdato?";
+"AgeVerification.Explanation.Message" = "Er du under 16 år har vi ikke lov til å la deg bruke denne appen. Du må derfor registrere din fødselsdato slik at vi kan være sikre på at du er gammel nok til å bruke den.";
+
+"Tab.Monitoring" = "Appstatus";
+"Tab.Info" = "Info";
+"Tab.Settings" = "Innstillinger";
+
+"Notification.BluetoothOff" = "Bluetooth er avslått. Skru på Bluetooth for å hjelpe spore smitte.";
+"Notification.NewVersionAvailable" = "En ny versjon av Smittestopp er tilgjengelig.";
+"Notification.DataDeleted" = "Din data har blitt slettet. Trykk for å registrere på nytt.";
+
+"Loading.Title" = "Lasting pågår…";
+"Error.Title" = "Feil";
+"Error.Description" = "Vennligst prøv igjen.";
+
+"ConfirmButton.Title" = "Bekreft";
+"CancelButton.Title" = "Avbryt";
+"DeleteButton.Title" = "Slett";
+"OKButton.Title" = "OK";
+"CloseButton.Title" = "Lukk";
+

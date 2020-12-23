@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="n9a-sv-Zvy">
+                                <rect key="frame" x="169" y="503" width="37" height="37"/>
+                            </activityIndicatorView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="FHI_logo_full" translatesAutoresizingMaskIntoConstraints="NO" id="8FK-47-qQv">
+                                <rect key="frame" x="71.666666666666686" y="589" width="232" height="149"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="map marker alt solid 2" translatesAutoresizingMaskIntoConstraints="NO" id="Srr-hD-lUT">
+                                <rect key="frame" x="149.66666666666666" y="241" width="76" height="100"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="virus_color" translatesAutoresizingMaskIntoConstraints="NO" id="N42-5q-t1t">
+                                <rect key="frame" x="144.66666666666666" y="253" width="58" height="58"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="SMITTESTOPP" translatesAutoresizingMaskIntoConstraints="NO" id="616-OZ-Y5M">
+                                <rect key="frame" x="80" y="366" width="215" height="25"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="MainTextColor"/>
+                        <constraints>
+                            <constraint firstItem="8FK-47-qQv" firstAttribute="top" secondItem="n9a-sv-Zvy" secondAttribute="bottom" constant="49" id="2SZ-wB-YlI"/>
+                            <constraint firstItem="616-OZ-Y5M" firstAttribute="top" secondItem="Srr-hD-lUT" secondAttribute="bottom" constant="25" id="L4t-Z4-Bwr"/>
+                            <constraint firstItem="Srr-hD-lUT" firstAttribute="top" secondItem="N42-5q-t1t" secondAttribute="bottom" constant="-70" id="LVc-4K-eqb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8FK-47-qQv" secondAttribute="bottom" constant="40" id="W9C-YI-lbp"/>
+                            <constraint firstItem="8FK-47-qQv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eUZ-vf-bv1"/>
+                            <constraint firstItem="616-OZ-Y5M" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mdB-6b-jJg"/>
+                            <constraint firstItem="Srr-hD-lUT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="owN-ds-UhV"/>
+                            <constraint firstItem="Srr-hD-lUT" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-120" id="tfE-Sq-Qso"/>
+                            <constraint firstItem="Srr-hD-lUT" firstAttribute="leading" secondItem="N42-5q-t1t" secondAttribute="trailing" constant="-53" id="ttq-Qn-f7t"/>
+                            <constraint firstItem="n9a-sv-Zvy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="unZ-Lw-phi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FHI_logo_full" width="231.33332824707031" height="148.33332824707031"/>
+        <image name="SMITTESTOPP" width="215" height="24.666666030883789"/>
+        <image name="map marker alt solid 2" width="75.333335876464844" height="100"/>
+        <image name="virus_color" width="58" height="58"/>
+        <namedColor name="MainTextColor">
+            <color red="0.22352941176470589" green="0.23529411764705882" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

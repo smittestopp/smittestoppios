@@ -1,0 +1,9 @@
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-Corona/Pods-Corona.release.xcconfig"
+
+APP_CONFIGURATION_TARGET = prod
+
+APP_NAME = Smittestopp
+APP_BUNDLE_IDENTIFIER = no.fhi.smittestopp

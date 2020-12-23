@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "994900B9-AE5D-452E-9F52-E1A8A582B964",
+      "name" : "Main configuration",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "region" : "NO",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Corona.xcodeproj",
+      "identifier" : "6BB6EBE1241BFF2700DD5979",
+      "name" : "Corona"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Corona.xcodeproj",
+        "identifier" : "6BB6EBF7241BFF2900DD5979",
+        "name" : "CoronaTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Corona.xcodeproj",
+        "identifier" : "6BB6EC02241BFF2900DD5979",
+        "name" : "CoronaUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
